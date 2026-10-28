@@ -16,8 +16,13 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.aliskanlik"
     },
+    "plugins": [
+      "expo-notifications",
+      "@react-native-community/datetimepicker"
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
     }
